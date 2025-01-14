@@ -126,6 +126,16 @@ header h1 {
 	margin-bottom: 20px;
 }
 
+.button-clicked {
+	text-align: center;
+	font-family: 'Noto Serif Display', serif;
+	border: 1px solid #D65266;
+	border-radius: 15px;
+	overflow: hidden;
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+
 .product:hover {
 	transform: scale(1.05);
 	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
