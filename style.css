@@ -88,8 +88,23 @@ header h1 {
 	transition: background-color 0.3s ease;
 }
 
+.button-group button.selected {
+	background-color: #c03b4f;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+
 .button-group button:hover {
 	background-color: #d37786;
+}
+.button-group button.selected:hover {
+	background-color: #c03b4f;
 }
 
 .catalog {
@@ -120,16 +135,6 @@ header h1 {
 	text-align: center;
 	font-family: 'Noto Serif Display', serif;
 	border: 1px solid #e48e9b;
-	border-radius: 15px;
-	overflow: hidden;
-	background-color: #fff;
-	margin-bottom: 20px;
-}
-
-.button-clicked {
-	text-align: center;
-	font-family: 'Noto Serif Display', serif;
-	border: 1px solid #D65266;
 	border-radius: 15px;
 	overflow: hidden;
 	background-color: #fff;
