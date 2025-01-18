@@ -120,6 +120,7 @@ header h1 {
 	margin-top: 2px;
 	position: relative;
 	z-index: 1;
+	text-decoration: none !important;
 }
 
 .product {
@@ -129,6 +130,7 @@ header h1 {
 	overflow: hidden;
 	background-color: #fff;
 	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	text-decoration: none !important;
 }
 
 .button {
@@ -144,6 +146,7 @@ header h1 {
 .product:hover {
 	transform: scale(1.05);
 	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+	text-decoration: none !important;
 }
 
 .product img {
@@ -152,6 +155,7 @@ header h1 {
 	object-fit: cover;
 	border-bottom: 1px solid #e88f9d;
 	cursor: pointer;
+	text-decoration: none !important;
 }
 
 .product-id {
@@ -160,6 +164,7 @@ header h1 {
 	font-family: 'Noto Serif Display', serif;
 	font-style: normal;
 	color:#31241e;
+	text-decoration: none !important;
 }
 
 .product-price {
@@ -167,6 +172,7 @@ header h1 {
 	font-size: 18px;
 	font-weight: bold;
 	color:#31241e;
+	text-decoration: none !important;
 }
 
 .product-name {
@@ -174,7 +180,16 @@ header h1 {
 	font-size: 20px;
 	font-weight: bold;
 	color: #e88f9d;
+	text-decoration: none;
+	cursor: default;	
+	margin-bottom: 1px;
+	margin-top: 1px;
 }
+
+.product a {
+    text-decoration: none !important;
+	}
+
 
 footer {
 	margin-top: 30px;
@@ -219,18 +234,21 @@ footer p {
 	background-color: rgba(0, 0, 0, 0.8);
 	justify-content: center;
 	align-items: center;
+	text-decoration: none;
 }
 
 .modal img {
 	max-width: 90%;
 	max-height: 90%;
 	border-radius: 5px;
+	text-decoration: none !important;
 }
 
 .modal:target {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	text-decoration: none !important;
 }
 
 /* Estilo responsivo */
@@ -242,16 +260,20 @@ footer p {
 	.catalog {
 		grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
 		gap: 10px;
+		text-decoration: none !important;
 	}
 
 	.product-name {
 		font-size: 20px;
+		text-decoration: none;
 	}
 	.product-id {
 		font-size: 12px;
+		text-decoration: none !important;
 	}
 	.product-price {
 		font-size: 18px;
+		text-decoration: none !important;
 	}
 }
 
@@ -266,9 +288,15 @@ footer p {
 
 	.catalog {
 		grid-template-columns: 1fr;
+		text-decoration: none !important;
 	}
 
 	.product img {
 		height: 200px;
+		text-decoration: none !important;
 	}
-}
+	}
+	
+.modal a {
+		text-decoration: none !important;
+		}
