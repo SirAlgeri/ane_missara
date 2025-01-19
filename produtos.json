@@ -1,89 +1,30 @@
-{
-    "produtos": [
-      {
-        "categoria": "Anel",
-        "nome": "Anel 08 Prata",
-        "preco": 49.00,
-        "link_imagem": "https://exemplo.com/imagem_anel_ouro.jpg",
-        "id": 306
-      },
-      {
-        "categoria": "Anel",
-        "nome": "Anel 155 Prata",
-        "preco": 65.00,
-        "link_imagem": "https://exemplo.com/imagem_colar_prata.jpg",
-        "id": 3229
-      },
-      {
-        "categoria": "Anel",
-        "nome": "Anel 233 Dourado",
-        "preco": 39.00,
-        "link_imagem": "https://exemplo.com/imagem_tenis_corrida_x.jpg",
-        "id": 4291
-      },
-      {
-        "categoria": "Anel",
-        "nome": "Anel 259 Prata",
-        "preco": 49.00,
-        "link_imagem": "https://exemplo.com/imagem_tenis_casual_y.jpg",
-        "id": 5587
-      },
-      {
-        "categoria": "Anel",
-        "nome": "Anel 347 Dourado",
-        "preco": 75.00,
-        "link_imagem": "https://exemplo.com/imagem_camiseta_estampada.jpg",
-        "id": 6250
-      },
-      {
-        "categoria": "Anel",
-        "nome": "Anel 372 Dourado",
-        "preco": 49.00,
-        "link_imagem": "https://exemplo.com/imagem_calca_jeans_skinny.jpg",
-        "id": 6625
-      },
-      {
-        "categoria": "Anel",
-        "nome": "Anel 397 Prata",
-        "preco": 52.00,
-        "link_imagem": "https://exemplo.com/imagem_camiseta_estampada.jpg",
-        "id": 6903
-      },
-      {
-        "categoria": "Anel",
-        "nome": "Anel 450 Dourado",
-        "preco": 79.00,
-        "link_imagem": "https://exemplo.com/imagem_camiseta_estampada.jpg",
-        "id": 7510
-      },
-      {
-        "categoria": "Anel",
-        "nome": "Anel 625 Dourado",
-        "preco": 79.00,
-        "link_imagem": "https://exemplo.com/imagem_camiseta_estampada.jpg",
-        "id": 10888
-      },
-      {
-        "categoria": "Anel",
-        "nome": "Anel 347 Dourado",
-        "preco": 75.00,
-        "link_imagem": "https://exemplo.com/imagem_camiseta_estampada.jpg",
-        "id": 6250
-      },
-      {
-        "categoria": "Anel",
-        "nome": "Anel 347 Dourado",
-        "preco": 75.00,
-        "link_imagem": "https://exemplo.com/imagem_camiseta_estampada.jpg",
-        "id": 6250
-      },
-      {
-        "categoria": "Anel",
-        "nome": "Anel 347 Dourado",
-        "preco": 75.00,
-        "link_imagem": "https://exemplo.com/imagem_camiseta_estampada.jpg",
-        "id": 6250
-      },
-    ]
+[
+  {
+    "categoria": "Semijoias",
+    "nome": "Anel Ouro",
+    "preco": 150.00,
+    "link_imagem": "https://raw.githubusercontent.com/SirAlgeri/ane_missara/refs/heads/main/images/Samuel%20Gostoso.jpg",
+    "id": 101
+  },
+  {
+    "categoria": "Semijoias",
+    "nome": "Colar Prata",
+    "preco": 200.00,
+    "link_imagem": "https://exemplo.com/imagem_colar_prata.jpg",
+    "id": 102
+  },
+  {
+    "categoria": "Tênis",
+    "nome": "Tênis Corrida X",
+    "preco": 350.00,
+    "link_imagem": "https://exemplo.com/imagem_tenis_corrida_x.jpg",
+    "id": 201
+  },
+  {
+    "categoria": "Tênis",
+    "nome": "Tênis Casual Y",
+    "preco": 299.99,
+    "link_imagem": "https://exemplo.com/imagem_tenis_casual_y.jpg",
+    "id": 202
   }
-  
+]
